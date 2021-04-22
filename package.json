@@ -4,6 +4,7 @@
     "description": "Lab to investigate how to keep track of version changes on package.json",
     "main": "index.js",
     "scripts": {
+        "start": "node detect_changes.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
