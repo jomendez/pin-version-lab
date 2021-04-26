@@ -29,7 +29,7 @@ const updateSnapshot = (filename) => {
     if (err) throw err;
     console.log(`File ${filename} Saved!`);
   });
-}
+};
 
 const getSnapShot = () => {
   const filename = 'snapshot.json';
