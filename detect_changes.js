@@ -45,7 +45,7 @@ const getSnapShot = () => {
     console.error(err);
   }
   return packageObj;
-}
+};
 
 const snapshotDiff = () => {
   const snapshot = getSnapShot();
